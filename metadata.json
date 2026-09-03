@@ -1,0 +1,6 @@
+{
+  "name": "Operational Business Financial Forecasting & Three-Statement Model",
+  "description": "Production-grade operational business financial forecasting and integrated three-statement model with real-time formula calculations, scenario sensitivity, and local persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

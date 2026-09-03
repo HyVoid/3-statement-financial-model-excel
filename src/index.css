@@ -1,0 +1,193 @@
+@import "tailwindcss";
+
+:root {
+  /* ── Core Palette ── */
+  --color-primary: #051C2C;
+  --color-accent: #2251FF;
+  --color-bg: #F5F5F2;
+  --color-muted: #888888;
+  --color-body-text: #1A1A2E;
+
+  /* ── Semantic (action / anomaly only) ── */
+  --color-positive: #00C853;
+  --color-negative: #D32F2F;
+
+  /* ── Surfaces & Inputs ── */
+  --color-surface: #FFFFFF;
+  --color-input-bg: #FFFDE7;
+  --color-border: #E8E8E6;
+
+  /* ── Navigation ── */
+  --nav-bg: #FFFFFF;
+  --nav-border: #E8E8E6;
+  --nav-text: #051C2C;
+  --nav-text-inactive: rgba(5, 28, 44, 0.45);
+
+  /* ── Table Header & Highlight Tints ── */
+  --table-header-bg: rgba(5, 28, 44, 0.04);
+  --table-header-sep: rgba(5, 28, 44, 0.12);
+  --table-track-bg: rgba(5, 28, 44, 0.10);
+  --insight-bg: rgba(34, 81, 255, 0.04);
+  --anomaly-bg: rgba(211, 47, 47, 0.04);
+
+  /* ── Typography ── */
+  --font-heading: 'EB Garamond', Georgia, serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
+
+  /* ── Tracking ── */
+  --tracking-display: -0.03em;
+  --tracking-heading: -0.02em;
+  --tracking-label: 0.06em;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 2px rgba(5, 28, 44, 0.04), 0 2px 8px rgba(5, 28, 44, 0.06);
+  --shadow-md: 0 2px 4px rgba(5, 28, 44, 0.04), 0 8px 24px rgba(5, 28, 44, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  --shadow-lg: 0 4px 8px rgba(5, 28, 44, 0.06), 0 16px 48px rgba(5, 28, 44, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  --shadow-nav: 0 1px 3px rgba(5, 28, 44, 0.06), 0 1px 0 rgba(5, 28, 44, 0.08);
+
+  /* ── Easings & Transitions ── */
+  --ease-standard: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1.0);
+  --ease-decel: cubic-bezier(0.0, 0.0, 0.2, 1.0);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-body-text);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Typography helper classes */
+.font-display {
+  font-family: var(--font-heading);
+}
+
+.heading-display {
+  font-family: var(--font-heading);
+  letter-spacing: var(--tracking-display);
+}
+
+.heading-section {
+  font-family: var(--font-heading);
+  letter-spacing: var(--tracking-heading);
+}
+
+.label-uppercase {
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+/* Card elevation & hover lift */
+.card-elevation {
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  border-radius: 12px;
+  transition: transform 250ms var(--ease-spring), box-shadow 250ms var(--ease-standard);
+}
+
+.card-elevation:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.card-elevation-static {
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  border-radius: 12px;
+}
+
+/* Insight block */
+.insight-container {
+  background-color: var(--insight-bg);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 10px 10px 0;
+  padding: 14px 18px;
+}
+
+/* Interactive cell with scale & brightness feedback */
+.interactive-cell {
+  transition: transform 150ms var(--ease-spring), filter 150ms var(--ease-standard);
+  cursor: pointer;
+}
+
+.interactive-cell:hover {
+  transform: scale(1.04);
+  filter: brightness(1.05);
+  z-index: 10;
+}
+
+/* Editable input cell style */
+.editable-cell-input {
+  background-color: var(--color-input-bg);
+  border: 1px dashed rgba(5, 28, 44, 0.25);
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--color-primary);
+  font-weight: 500;
+  transition: border-color 150ms ease, background-color 150ms ease;
+  width: 100%;
+}
+
+.editable-cell-input:focus {
+  outline: none;
+  border: 1px solid var(--color-accent);
+  background-color: #FFFFFF;
+}
+
+/* Pill badge */
+.badge-pill {
+  border-radius: 9999px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+/* Page fade-up animation (220ms) */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 220ms cubic-bezier(0.0, 0.0, 0.2, 1.0) both;
+}
+
+/* Custom scrollbar for horizontal data tables */
+.table-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.table-scrollbar::-webkit-scrollbar-track {
+  background: rgba(5, 28, 44, 0.04);
+}
+
+.table-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(5, 28, 44, 0.2);
+  border-radius: 3px;
+}
+
+.table-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(5, 28, 44, 0.35);
+}
+
