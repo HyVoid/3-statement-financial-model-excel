@@ -8,9 +8,9 @@
 > **Browser version:** Free online calculator. No signup. No installation.
 > **Excel version:** Paid FP&A workbook, with a **30-day, no-questions-asked money-back guarantee**. Built for repeated monthly rolling forecasts, offline variance analysis, permanent financial records, and investor audit trails.
 >
-> **[🌐 Try the Free 3-Statement Financial Model Online Calculator]** → Web-based interactive scenario planner
+> **[🌐 Try the Free 3-Statement Financial Model Online Calculator]** → [Web-based interactive scenario planner](https://hyvoid.github.io/3-statement-financial-model-excel/)
 > 
-> **[📥 Download the Reusable Financial Projection Excel Template]** → Unlocked, macro-free offline FP&A workbook (.xlsx)
+> **[📥 Download the Reusable Financial Projection Excel Template]** → [Unlocked, macro-free offline FP&A workbook (.xlsx)]
 
 ---
 
