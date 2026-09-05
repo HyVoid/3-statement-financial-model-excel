@@ -10,7 +10,7 @@
 >
 > **[🌐 Try the Free 3-Statement Financial Model Online Calculator]** → [Web-based interactive scenario planner](https://hyvoid.github.io/3-statement-financial-model-excel/)
 > 
-> **[📥 Download the Reusable Financial Projection Excel Template]** → [Unlocked, macro-free offline FP&A workbook (.xlsx)](https://theseusworkshop.com/l/bsrbzf)
+> **[📥 Download the Reusable Financial Projection Excel Template]** → [Unlocked, macro-free offline FP&A workbook (.xlsx)](https://theseusworkshop.com/l/bsrbzf?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=3-statement-financial-model)
 
 ---
 
@@ -61,7 +61,7 @@ Watch the model automatically translate your operational drivers into standard f
 ### Step 4: Run Scenario Analysis & Export Your Excel Template
 Compare the Base, Upside, and Downside outcomes. Look for capacity shortages, working-capital cash absorption traps, or debt-covenant breaches. Adjust an assumption and watch the cash flow ripple effect instantly.
 
-> **[📥 Download the Full Excel 3-Statement Model Template](https://theseusworkshop.com/l/bsrbzf)** to build custom scenarios, conduct offline monthly variance tracking, and maintain a permanent working file for your finance team.
+> **[📥 Download the Full Excel 3-Statement Model Template](https://theseusworkshop.com/l/bsrbzf?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=3-statement-financial-model)** to build custom scenarios, conduct offline monthly variance tracking, and maintain a permanent working file for your finance team.
 
 ---
 
