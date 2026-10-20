@@ -1,6 +1,8 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # 3-Statement Financial Forecast Excel Template & Scenario Planning Model
+<img width="1349" height="790" alt="image" src="https://github.com/user-attachments/assets/22ff1c9b-e352-4578-b01d-716b4fb2a52f" />
+
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-informational.svg)](README.md) [![Tool Type](https://img.shields.io/badge/Tool-FP&A%20Financial%20Decision%20Support-success.svg)](README.md)
 
