@@ -1,6 +1,8 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # Plantilla Excel de Proyección Financiera de 3 Estados y Modelo de Planificación de Escenarios
+<img width="1349" height="790" alt="image" src="https://github.com/user-attachments/assets/22ff1c9b-e352-4578-b01d-716b4fb2a52f" />
+
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-informational.svg)](README.md) [![Tool Type](https://img.shields.io/badge/Tool-FP&A%20Financial%20Decision%20Support-success.svg)](README.md)
 
@@ -789,27 +791,73 @@ Un pronóstico no debería considerarse completo meramente porque fórmulas indi
 
 ## La Lógica de Negocio y Metodología
 
-El modelo usa un principio simple: **el pronóstico financiero debería seguir la forma en que el negocio realmente opera**.
+Un **modelo de proyección financiera de tres estados** confiable debe hacer más que proyectar ingresos, gastos y saldos de efectivo de forma independiente. Debe explicar cómo la actividad de ventas, la capacidad de entrega, el reconocimiento de ingresos, los costos operativos, el capital de trabajo y el financiamiento interactúan para determinar la posición financiera de una empresa.
 
-La actividad de ventas crea demanda potencial. Los supuestos de conversión convierten esa demanda en órdenes. La capacidad de entrega determina si esas órdenes pueden ejecutarse. El tiempo del proyecto determina cuándo el valor contractual se convierte en ingresos reconocidos. Los costos siguen la actividad resultante. El capital de trabajo y el financiamiento determinan cuánto efectivo se requiere para soportar la operación.
+Este modelo utiliza un **enfoque de proyección operativa integrada** para conectar los supuestos comerciales con el estado de pérdidas y ganancias, el balance y el estado de flujo de efectivo. El objetivo es ayudar a los dueños de negocios, CFO y profesionales de FP&A a evaluar si un plan de crecimiento es operativamente alcanzable, financieramente sostenible y está adecuadamente financiado.
 
-Cuatro métodos hacen esa cadena utilizable para la gerencia:
+### 1. Planificación de escenarios para la proyección financiera
 
-* **La comparación de escenarios** separa los supuestos Base, Al alza y A la baja para que la gerencia pueda ver si una decisión permanece viable cuando la conversión o la demanda cambian.
+**Método:** Análisis de escenarios Base, Al alza y A la baja.
 
-* **El pronóstico de pipeline a carga de trabajo** traduce el crecimiento de ventas en requerimientos de entrega, haciendo visibles las restricciones de personal antes de que se conviertan en problemas de entrega.
+**Problema comercial:** Una sola proyección financiera puede crear una confianza falsa cuando la conversión de ventas, la retención de clientes o las condiciones operativas cambian.
 
-* **El análisis del momento de ingresos** separa el valor contractual de los ingresos reconocidos, previniendo que el reconocimiento temprano de ingresos cree una visión engañosa de la rentabilidad a corto plazo.
+**Cómo funciona:** Los supuestos de escenarios centralizados ajustan los impulsores comerciales relevantes en toda la proyección, en lugar de requerir modelos separados para cada caso.
 
-* **El pronóstico de capital de trabajo** muestra cómo los términos de pago del cliente, el inventario, el WIP y el crédito del proveedor afectan los requerimientos de financiamiento, para que el crecimiento rentable no se confunda automáticamente con crecimiento generador de efectivo.
+**Decisión habilitada:** Comparar los resultados financieros potenciales, identificar la exposición a la baja y probar si el gasto planificado, la contratación o la expansión siguen siendo viables bajo diferentes condiciones operativas.
 
-* **La reconciliación de tres estados** obliga a los supuestos operativos, la rentabilidad, los movimientos del balance, el financiamiento y el efectivo a coincidir, haciendo que las inconsistencias inexplicadas del modelo sean más fáciles de aislar.
+### 2. Pronóstico del pipeline de ventas y proyección de ingresos
 
-La pregunta comercial por lo tanto no es simplemente **"¿Cuántos ingresos puede generar el negocio?"**
+**Método:** Modelización de la conversión del embudo combinada con el reconocimiento de ingresos del proyecto y cronogramas de realización multiperíodo.
 
-Es:
+**Problema comercial:** Los pipelines de ventas y los contratos firmados a menudo se confunden con ingresos inmediatamente realizables, sobrestimando el desempeño a corto plazo y oscureciendo el momento de la entrega.
 
-> **¿Cuánto puede el negocio vender, entregar, reconocer, financiar y, en última instancia, convertir en generación sostenible de efectivo?**
+**Cómo funciona:** Los leads se convierten en oportunidades calificadas y órdenes ganadas usando supuestos de conversión definidos. El valor contractual del proyecto fluye luego a través de un cronograma de realización de ingresos, mientras que los servicios recurrentes siguen sus propios supuestos de base de clientes e ingresos.
+
+**Decisión habilitada:** Distinguir el potencial del pipeline, los negocios reservados y los ingresos proyectados. Estimar cuándo se espera que la actividad comercial contribuya al desempeño financiero reportado.
+
+### 3. Planificación de capacidad y pronóstico de la fuerza laboral
+
+**Método:** Pronóstico de FTE basado en la carga de trabajo.
+
+**Problema comercial:** Las proyecciones de ingresos frecuentemente asumen que el negocio puede entregar trabajo adicional sin probar si la fuerza laboral disponible tiene capacidad productiva suficiente.
+
+**Cómo funciona:** Las oportunidades y órdenes proyectadas se traducen en carga de trabajo usando supuestos de esfuerzo estándar, horas de trabajo mensuales y utilización productiva. El FTE requerido se compara con la capacidad disponible.
+
+**Decisión habilitada:** Identificar posibles déficits de capacidad antes de aceptar trabajo adicional, y evaluar si la contratación, la subcontratación o los cambios en la captación de ventas son necesarios.
+
+### 4. Pronóstico del capital de trabajo y análisis del flujo de efectivo
+
+**Método:** Modelización del capital de trabajo operativo usando supuestos de cuentas por cobrar, inventario, trabajo en proceso (WIP) y cuentas por pagar.
+
+**Problema comercial:** Un EBITDA positivo no garantiza el efectivo suficiente para financiar el crecimiento. Las cobranzas retrasadas de clientes y el capital inmovilizado en inventario o entrega de proyectos pueden crear presión de liquidez incluso cuando las operaciones parecen rentables.
+
+**Cómo funciona:** La actividad operativa impulsa los saldos proyectados de capital de trabajo. Los cambios en esos saldos alimentan la proyección del flujo de efectivo, conectando el crecimiento comercial con sus requerimientos de financiamiento.
+
+**Decisión habilitada:** Estimar cuánto efectivo puede absorber el crecimiento, evaluar el impacto de los términos de pago e identificar períodos en los que puede requerirse liquidez adicional.
+
+### 5. Programación de la deuda y modelización financiera de tres estados
+
+**Método:** Amortización integrada de la deuda, proyección de intereses y modelización financiera de tres estados.
+
+**Problema comercial:** Las proyecciones se vuelven poco confiables cuando los préstamos, los pagos de principal, los gastos por intereses y los movimientos de efectivo se modelizan por separado del desempeño operativo.
+
+**Cómo funciona:** Los movimientos de deuda alimentan los cronogramas de financiamiento y balance, mientras que los intereses afectan el desempeño financiero y los requerimientos de efectivo de financiamiento. El modelo integrado conecta los resultados operativos, los movimientos del balance y el flujo de efectivo, con una verificación de reconciliación del balance.
+
+**Decisión habilitada:** Evaluar los requerimientos de financiamiento, la presión del servicio de la deuda, las implicaciones de liquidez y la consistencia de los estados financieros proyectados.
+
+### Cómo trabajan juntos los métodos
+
+Estos métodos forman una cadena de decisiones conectada:
+
+**Pipeline de ventas → Órdenes → Reconocimiento de ingresos → Capacidad de entrega → COGS y gastos operativos → Capital de trabajo → Servicio de la deuda → Tres estados financieros**
+
+El valor proviene de examinar estas dependencias juntas en lugar de tratar cada proyección como un cálculo aislado.
+
+Una proyección de ventas más fuerte puede aumentar los ingresos proyectados, pero también puede incrementar los requerimientos de personal y las necesidades de capital de trabajo. La decisión resultante depende de la capacidad de entrega, los márgenes, el momento de cobranza y la disponibilidad de financiamiento—no solo del crecimiento de ingresos.
+
+Esto hace que el modelo sea útil para **la planificación financiera integrada, la presupuestación operativa, la previsión del flujo de efectivo, el análisis de escenarios de crecimiento empresarial y el soporte de decisiones de gestión**.
+
+Está diseñado como una herramienta ligera de previsión y soporte de decisiones, no como un reemplazo para software de contabilidad, sistemas ERP o una plataforma completa de planificación financiera empresarial.
 
 ## Otras Herramientas de Esta Serie
 
