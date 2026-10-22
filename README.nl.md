@@ -1,6 +1,8 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # 3-Statement Financial Forecast Excel Template & Scenario Planning Model
+<img width="1349" height="790" alt="image" src="https://github.com/user-attachments/assets/22ff1c9b-e352-4578-b01d-716b4fb2a52f" />
+
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-informational.svg)](README.md) [![Tool Type](https://img.shields.io/badge/Tool-FP&A%20Financial%20Decision%20Support-success.svg)](README.md)
 
@@ -1442,43 +1444,73 @@ Een prognose mag niet als voltooid worden beschouwd alleen omdat individuele for
 
 ## De bedrijfslogica en methodologie
 
+Een betrouwbaar **financiële prognosemodel met drie jaarrekeningen** moet meer doen dan omzet, kosten en cash-bestanden onafhankelijk van elkaar projecteren. Het moet uitleggen hoe verkoopactiviteit, leveringscapaciteit, omzetverantwoording, operationele kosten, werkkapitaal en financiering samenwerken om de financiële positie van een bedrijf te bepalen.
 
+Dit model gebruikt een **geïntegreerde operationele prognosebenadering** om commerciële aannames te verbinden met de winst-en-verliesrekening, de balans en het kapitaalstroomoverzicht. Het doel is om bedrijfseigenaren, CFO's en FP&A-professionals te helpen beoordelen of een groeiplan operationeel haalbaar, financieel duurzaam en voldoende gefinancierd is.
 
-Het model gebruikt een eenvoudig principe: **financiële prognoses moeten de manier volgen waarop het bedrijf daadwerkelijk opereert**.
+### 1. Scenarioplanning voor financiële prognoses
 
+**Methode:** Scenario-analyse voor Base, Upside en Downside.
 
+**Bedrijfsprobleem:** Eén financiële prognose kan vals vertrouwen creëren wanneer verkoopconversie, klantretentie of operationele omstandigheden veranderen.
 
-Verkoopactiviteit creëert potentiële vraag. Conversieaannames zetten die vraag om in orders. Leveringscapaciteit bepaalt of die orders kunnen worden uitgevoerd. Projecttiming bepaalt wanneer gecontracteerde waarde verantwoorde omzet wordt. Kosten volgen de resulterende activiteit. Werkkapitaal en financiering bepalen hoeveel cash nodig is om de operatie te ondersteunen.
+**Hoe het werkt:** Gecentraliseerde scenario-aannames passen de relevante zakelijke drivers in de hele prognose aan, in plaats van voor elk geval aparte modellen te vereisen.
 
+**Mogelijk gemaakte beslissing:** Vergelijk mogelijke financiële uitkomsten, identificeer neerwaarts risico en test of geplande uitgaven, werving of expansie onder verschillende operationele omstandigheden houdbaar blijven.
 
+### 2. Voorspellen van de verkooppijplijn en omzetprognose
 
-Vier methoden maken die keten bruikbaar voor het management:
+**Methode:** Modelvorming van funnelconversie gecombineerd met projectomzetverantwoording en realisatieplanning over meerdere perioden.
 
+**Bedrijfsprobleem:** Verkooppijplijnen en getekende contracten worden vaak verward met onmiddellijk realiseerbare omzet, wat de prestaties op korte termijn overdrijft en het tijdstip van levering verhult.
 
+**Hoe het werkt:** Leads worden met behulp van gedefinieerde conversieaannames omgezet in gekwalificeerde opportunities en gewonnen orders. De contractwaarde van het project stroomt vervolgens door een omzetrealisatieplanning, terwijl terugkerende services hun eigen klantbasis- en omzetaannames volgen.
 
-* **Scenariovergelijking** scheidt de aannames voor Base, Upside en Downside, zodat het management kan zien of een beslissing houdbaar blijft wanneer conversie of vraag verandert.
+**Mogelijk gemaakte beslissing:** Onderscheid pijplijnpotentieel, geboekte business en prognose-omzet. Schat in wanneer commerciële activiteit naar verwachting bijdraagt aan de gerapporteerde financiële prestaties.
 
-* **Prognoses van pijplijn naar werklast** vertaalt verkoopgroei naar leveringsvereisten, waardoor beperkingen in de personele bezetting zichtbaar worden voordat zij leveringsproblemen worden.
+### 3. Capaciteitsplanning en personeelsprognose
 
-* **Analyse van omzettiming** scheidt gecontracteerde waarde van verantwoorde omzet, waardoor vroegtijdige omzetverantwoording geen misleidend beeld van de winstgevendheid op korte termijn kan creëren.
+**Methode:** Op werkbelasting gebaseerde FTE-prognose.
 
-* **Werkkapitaalprognoses** laten zien hoe betalingstermijnen van klanten, voorraad, WIP en leverancierskrediet de financieringsbehoefte beïnvloeden, zodat winstgevende groei niet automatisch wordt aangezien voor cashgenererende groei.
+**Bedrijfsprobleem:** Omzetprognoses nemen vaak aan dat het bedrijf extra werk kan leveren zonder te testen of de beschikbare personeelsbezetting voldoende productieve capaciteit heeft.
 
-* **Afstemming van de drie jaarrekeningen** dwingt operationele aannames, winstgevendheid, balansbewegingen, financiering en cash om met elkaar overeen te stemmen, waardoor onverklaarde inconsistenties in het model gemakkelijker te isoleren zijn.
+**Hoe het werkt:** Verwachte opportunities en orders worden vertaald naar werkbelasting met behulp van standaard inspanningsaannames, maandelijkse arbeidsuren en productieve benutting. Het benodigde FTE wordt vergeleken met de beschikbare capaciteit.
 
+**Mogelijk gemaakte beslissing:** Identificeer mogelijke capaciteitstekorten voordat extra werk wordt geaccepteerd, en beoordeel of werving, outsourcing of veranderingen in de verkoopinstroom nodig zijn.
 
+### 4. Werkkapitaalprognoses en cashflow-analyse
 
-De commerciële vraag is daarom niet simpelweg **"Hoeveel omzet kan het bedrijf genereren?"**
+**Methode:** Modellering van operationeel werkkapitaal met behulp van aannames over debiteuren, voorraad, work-in-progress en crediteuren.
 
+**Bedrijfsprobleem:** Positieve EBITDA garandeert niet voldoende cash om groei te financieren. Vertraagde betalingen van klanten en kapitaal dat gebonden is in voorraad of projectlevering kunnen liquiditeitsdruk creëren, zelfs wanneer de operatie winstgevend lijkt.
 
+**Hoe het werkt:** Operationele activiteit drijft de geprojecteerde werkkapitaalsaldo's aan. Veranderingen in die saldo's voeden de cashflow-prognose en verbinden commerciële groei met de financieringsbehoefte ervan.
 
-Het is:
+**Mogelijk gemaakte beslissing:** Schat in hoeveel cash groei kan absorberen, beoordeel de impact van betalingstermijnen en identificeer perioden waarin extra liquiditeit nodig kan zijn.
 
+### 5. Schuldenplanning en financiële modellering met drie jaarrekeningen
 
+**Methode:** Geïntegreerde schuldaflossing, renteprognose en financiële modellering met drie jaarrekeningen.
 
-> **Hoeveel kan het bedrijf verkopen, leveren, verantwoorden, financieren en uiteindelijk omzetten in duurzame cashgeneratie?**
+**Bedrijfsprobleem:** Prognoses worden onbetrouwbaar wanneer leningen, aflossingen op hoofdsom, rentelasten en cashbewegingen apart van operationele prestaties worden gemodelleerd.
 
+**Hoe het werkt:** Schuldbewegingen voeden de financierings- en balansschema's, terwijl rente de financiële prestaties en de financieringscashbehoefte beïnvloedt. Het geïntegreerde model verbindt operationele resultaten, balansbewegingen en cashflow, met een balansafstemmingscontrole.
 
+**Mogelijk gemaakte beslissing:** Beoordeel financieringsbehoeften, schuldendienstdruk, liquiditeitsimplicaties en de consistentie van de geprojecteerde jaarrekeningen.
+
+### Hoe de methoden samenwerken
+
+Deze methoden vormen één verbonden beslissingsketen:
+
+**Verkooppijplijn → Orders → Omzetverantwoording → Leveringscapaciteit → COGS & operationele kosten → Werkkapitaal → Schuldendienst → Drie jaarrekeningen**
+
+De waarde komt uit het samen onderzoeken van deze afhankelijkheden, in plaats van elke prognose als een geïsoleerde berekening te behandelen.
+
+Een sterkere verkoopprognose kan de geprojecteerde omzet verhogen, maar kan ook de personeelsbehoefte en de werkkapitaalbehoefte verhogen. Het resulterende besluit hangt af van leveringscapaciteit, marges, inningstiming en beschikbaarheid van financiering—niet van omzetgroei alleen.
+
+Dit maakt het model nuttig voor **geïntegreerde financiële planning, operationele budgettering, cashflow-prognoses, scenario-analyse van bedrijfsgroei en ondersteuning van managementbeslissingen**.
+
+Het is ontworpen als een lichtgewicht prognose- en beslissingsondersteunend instrument, niet als vervanging voor boekhoudsoftware, ERP-systemen of een volledig ondernemingsfinancieel planningsplatform.
 
 ## Andere tools in deze serie
 
