@@ -61,7 +61,7 @@ export function exportBackupJSON(inputs: ModelInputs) {
   const a = document.createElement('a');
   a.href = url;
   const dateStr = new Date().toISOString().split('T')[0];
-  a.download = `OpModel_Backup_${dateStr}.json`;
+  a.download = `Theseus_Workshop_Financial_Model_Backup_${dateStr}.json`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);

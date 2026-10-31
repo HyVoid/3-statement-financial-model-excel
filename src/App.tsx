@@ -204,9 +204,9 @@ export const App: React.FC = () => {
       {/* Main Content Column */}
       <div className="flex-1 flex flex-col min-w-0 min-h-screen">
         {/* Top Header Bar for Desktop & Mobile */}
-        <header className="sticky top-0 z-30 h-14 bg-white border-b border-[#E8E8E6] px-4 sm:px-8 flex items-center justify-between shadow-2xs">
-          {/* Left: Mobile hamburger toggle & sheet breadcrumbs */}
-          <div className="flex items-center gap-3">
+        <header className="sticky top-0 z-30 h-14 bg-white border-b border-[#E8E8E6] px-4 sm:px-6 flex items-center justify-between shadow-2xs">
+          {/* Left: Brand name, application content & sheet breadcrumbs */}
+          <div className="flex items-center gap-3 min-w-0">
             <button
               onClick={() => setIsMobileSidebarOpen(true)}
               className="md:hidden p-1.5 text-[#051C2C] hover:bg-[rgba(5,28,44,0.05)] rounded-md transition-colors cursor-pointer"
@@ -215,19 +215,33 @@ export const App: React.FC = () => {
               <Menu size={20} />
             </button>
 
-            {/* Mobile-only brand emblem */}
-            <div className="md:hidden w-7 h-7 rounded-md bg-[#051C2C] flex items-center justify-center text-white p-0.5 shrink-0">
-              <BrandLogo size={22} className="text-[#F5F5F2]" />
+            {/* Brand Logo & Brand Name & Application Content */}
+            <div className="flex items-center gap-2.5 min-w-0">
+              <div className="w-7 h-7 rounded-md bg-[#051C2C] flex items-center justify-center text-white p-0.5 shrink-0">
+                <BrandLogo size={20} className="text-[#F5F5F2]" />
+              </div>
+
+              <div className="flex flex-col min-w-0">
+                <span className="font-bold text-[13px] text-[#051C2C] tracking-tight leading-tight">
+                  Theseus Workshop
+                </span>
+                <div className="text-[10px] leading-tight truncate mt-0.5 max-w-[190px] sm:max-w-[300px] lg:max-w-[440px]">
+                  <span className="font-mono font-medium text-[#475569]">3-statement-financial-model-excel</span>
+                </div>
+              </div>
             </div>
 
-            <div className="flex items-center gap-2">
-              <span className="text-[11px] font-mono font-bold text-[#2251FF] bg-[rgba(34,81,255,0.08)] px-1.5 py-0.5 rounded">
+            <div className="hidden lg:block h-5 w-[1px] bg-[#E8E8E6] mx-1 shrink-0" />
+
+            {/* Current Sheet Breadcrumb */}
+            <div className="hidden lg:flex items-center gap-1.5 min-w-0">
+              <span className="text-[10px] font-mono font-bold text-[#2251FF] bg-[rgba(34,81,255,0.08)] px-1.5 py-0.5 rounded shrink-0">
                 {currentSheetInfo.sheetNo}
               </span>
-              <span className="hidden sm:inline text-[12px] text-[#888888]">
+              <span className="text-[11px] text-[#888888] shrink-0">
                 {currentSheetInfo.group} /
               </span>
-              <h2 className="text-[13px] sm:text-[14px] font-bold text-[#051C2C] truncate">
+              <h2 className="text-[12px] font-bold text-[#051C2C] truncate">
                 {currentSheetInfo.title}
               </h2>
             </div>
@@ -333,7 +347,7 @@ export const App: React.FC = () => {
           <div className="max-w-[1400px] mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between text-[12px] text-[#888888] gap-2">
             <div className="flex items-center gap-2">
               <BrandLogo size={16} className="text-[#051C2C]" />
-              <span className="font-semibold text-[#051C2C]">Operational Business Financial Forecasting & Three-Statement Model</span>
+              <span className="font-semibold font-mono text-[#051C2C]">3-statement-financial-model-excel</span>
               <span className="hidden md:inline text-[#888888]">— Theseus Workshop</span>
             </div>
             <div className="italic text-[#888888]">

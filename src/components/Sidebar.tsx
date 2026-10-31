@@ -130,28 +130,30 @@ export const Sidebar: React.FC<SidebarProps> = ({
           isOpenMobile ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        {/* Brand Header */}
-        <div className="p-4 border-b border-[#E8E8E6] flex items-center justify-between shrink-0 bg-white">
+        {/* Brand & Application Content Header */}
+        <div className="p-4 border-b border-[#E8E8E6] flex items-start justify-between shrink-0 bg-white">
           <div className="flex items-start gap-3 min-w-0">
             <div className="w-10 h-10 rounded-lg bg-[#051C2C] flex items-center justify-center text-white shadow-xs p-1 shrink-0 mt-0.5">
               <BrandLogo size={32} className="text-[#F5F5F2]" />
             </div>
             <div className="min-w-0">
-              <h1 className="font-display text-[13px] font-bold text-[#051C2C] tracking-tight leading-snug">
-                Operational Business Financial Forecasting &amp; Three-Statement Model
-              </h1>
-              <p className="text-[10px] text-[#888888] font-medium tracking-wide uppercase mt-1 flex items-center gap-1.5">
-                <span>Theseus Workshop</span>
-                <span className="inline-block w-1 h-1 rounded-full bg-[#2251FF]" />
-                <span className="text-[#2251FF] font-semibold">Enterprise SaaS</span>
-              </p>
+              <div className="flex items-center gap-1.5">
+                <span className="font-display text-[15px] font-bold text-[#051C2C] tracking-tight leading-none">
+                  Theseus Workshop
+                </span>
+              </div>
+              <div className="mt-1.5 pt-1 border-t border-[#F0F0EE]">
+                <h1 className="font-mono text-[11px] font-medium text-[#475569] leading-snug break-all">
+                  3-statement-financial-model-excel
+                </h1>
+              </div>
             </div>
           </div>
 
           {/* Close button on mobile */}
           <button
             onClick={onCloseMobile}
-            className="md:hidden p-1.5 text-[#888888] hover:text-[#051C2C] rounded-md transition-colors shrink-0"
+            className="md:hidden p-1.5 text-[#888888] hover:text-[#051C2C] rounded-md transition-colors shrink-0 -mr-1"
           >
             <X size={20} />
           </button>
