@@ -36,6 +36,14 @@ This financial forecasting template is built to answer the exact questions CFOs 
 
 The core output is not just another dashboard—it is a **transparent causal chain between a daily operating decision and its long-term financial consequence**.
 
+## Spreadsheet Preview
+
+Want to take a closer look before downloading? You can preview the spreadsheet in Google Sheets to explore its layout, structure, and calculation logic.
+
+**[View Spreadsheet Preview on Google Sheets](https://docs.google.com/spreadsheets/d/1ZQmf9jfSvwOu_2Bjdo-R8MpkzlZlnEJe/edit?usp=sharing&ouid=108770714531989318327&rtpof=true&sd=true)**
+
+> **Note on Compatibility:** The Google Sheets preview may display occasional `#NAME?` errors or formula warnings due to differences between Google Sheets and Microsoft Excel formula compatibility. These are preview-only compatibility issues and do not affect the functionality of the original Excel workbook. For the intended formula behavior and full functionality, please download and open the `.xlsx` file in Microsoft Excel.
+
 ---
 
 ## Quick Start Tutorial: How to Build Your Financial Forecast
