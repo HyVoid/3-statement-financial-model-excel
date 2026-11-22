@@ -1556,6 +1556,23 @@ It is designed as a lightweight forecasting and decision-support tool, not a rep
 
 
 
+## Questions, Feedback & Product Updates
+
+This repository is part of the Theseus Workshop collection of lightweight, reusable decision-support tools. Feedback is welcome on practical usage questions, workflow gaps, reproducible calculation problems, and improvement ideas.
+
+- **Questions and usage help:** [Open a discussion](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/questions)
+- **Ideas and workflow suggestions:** [Share an idea](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/ideas)
+- **Product updates:** [Follow product updates](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/product-updates)
+- **Technical bugs:** Use the **Report a bug** issue form in this repository. Include the tool / workbook version, affected workflow area, expected vs. actual result, and reproducible steps.
+
+## Privacy & Data Handling Notice
+
+Please use synthetic or adequately de-identified examples when reporting issues. Do not publish raw workbooks, source exports, credentials, personal information, or confidential commercial records in public GitHub issues or discussions.
+
+Do not publish actual company financial statements, bank or lender data, investor materials, board forecasts, customer pipelines, payroll records, or confidential financing terms. Use a fictional company and synthetic assumptions.
+
+For browser-based tools, do not infer data storage, transmission, or retention behavior from the user interface alone. Check the current implementation and applicable data-handling notes before testing with real business data. When uncertain, use synthetic data only.
+
 ## License
 
 
